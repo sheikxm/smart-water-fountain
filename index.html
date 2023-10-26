@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script> <!-- Include D3.js -->
+    <title>Water Fountain Dashboard</title>
+</head>
+
+<body>
+    <header>
+        <h1>Water Fountain Dashboard</h1>
+    </header>
+    <main>
+        <div class="status">
+            <h2>Water Flow Rate</h2>
+            <p id="flow-rate">Loading...</p>
+        </div>
+        <div class="status">
+            <h2>Malfunction Alert</h2>
+            <p id="malfunction-alert">Loading...</p>
+        </div>
+        <div class="dashboard">
+                <h2>Water Flow Rate Chart</h2>
+                <div id="line-chart"></div>
+            <h2>Real-Time Data Visualization</h2>
+            <div id="bar-chart"></div>
+            <h2>Text-Based Dashboard</h2>
+            <ul id="event-list">
+                <li>Loading...</li>
+            </ul>   
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
